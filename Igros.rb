@@ -25,15 +25,10 @@ def igros
   
    else 
     
-    your_number_preliminary = (my_number3 * 70) + (my_number5 * 21) + (my_number7 * 15)
+    your_number = (my_number3 * 70) + (my_number5 * 21) + (my_number7 * 15)
       
-    if (your_number_preliminary > 105 && your_number_preliminary<210)
-      your_number = your_number_preliminary - 105
-        
-      elsif (your_number_preliminary > 210 && your_number_preliminary<315)
-      your_number = your_number_preliminary - 210
-        
-      else your_number = your_number_preliminary
+    until your_number <= 105
+      your_number -= 105
     end
       
     
