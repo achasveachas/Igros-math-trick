@@ -1,5 +1,5 @@
 def igros
-  puts "Please chose a number between 1 and 100. When you are ready hit Enter."
+  puts "Please chose a number between 1 and 100. When you are ready hit any key."
   gets.strip
   puts "Please divide your number into three and submit the remainder."
   my_number3 = gets.strip.to_i  
