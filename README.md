@@ -24,4 +24,4 @@ Total: 136
 
 This trick can work for arbitrarily large numbers but you have to know in which group of 100 (technically 105) the original number is in.
 The program however was written for the case where the original number is less than 105.
-In the case of larger numbers you might have to ADD 105 instead of sustracting in order to get to the right number.
+In the case of larger numbers you might have to ADD 105 instead of subtracting in order to get to the right number.
